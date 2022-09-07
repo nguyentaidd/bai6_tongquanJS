@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="file.js"></script>
+</head>
+<body>
+<h1 id="rikkei" onmouseover="changeColorWithOnmouseover()" onmouseout="changeColorWithOnmouseout()"
+    onclick="clickme()">rikke academy</h1>
+<script>
+    function changeColorWithOnmouseover() {
+        let rikkei = document.getElementById('rikkei');
+        rikkei.style.color = 'red';
+        rikkei.innerText = 'SE DAN';}
+    function changeColorWithOnmouseout() {
+        let rikkei = document.getElementById('rikkei')
+        rikkei.style.color = 'orange';}
+    function clickme() {
+        let rikkei = document.getElementById('rikkei');
+        rikkei.innerText = 'te liet';
+    }
+</script>
+
+</body>
+</html>
